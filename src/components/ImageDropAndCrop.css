@@ -1,0 +1,19 @@
+.dropzone {
+  border: 2px dotted #272727;
+  background-color: #e1e1e1;
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected-images { 
+  max-width: 100px; 
+  height: auto;
+  object-fit: cover;
+  margin: 0 auto;
+  background-color: antiquewhite;
+}
